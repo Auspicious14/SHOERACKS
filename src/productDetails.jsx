@@ -16,6 +16,15 @@ const ProductDetails = () => {
                 <h2>{data.name}</h2>
                 <h3>{data.price}</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, <br /> adipisicing elit. Numquam ab iure itaque quaerat sapiente. <br /> Tempore alias magnam eaque ipsum. Magnam.</p>
+                <br />
+                <div className="boxes">
+                    <p style={{color: 'rgb(205, 18, 18)'}}>Quantity</p>
+                <button className="box">-</button>
+                <button className="box">1</button>
+                <button className="box">+</button>
+                </div>
+                <button>Add to Cart</button>
+                <button>Order now!</button>
                 </div>
                 </div>}
         </div>
